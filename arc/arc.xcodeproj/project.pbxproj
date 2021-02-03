@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1D5E1C8325C32F2900320F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5E1C8225C32F2900320F5B /* main.m */; };
+		1DC0A10925CB0B3900339EC0 /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A10825CB0B3900339EC0 /* Wheel.m */; };
+		1DC0A10D25CB0C2200339EC0 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A10C25CB0C2200339EC0 /* Engine.m */; };
+		1DC0A11125CB0CB000339EC0 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A11025CB0CB000339EC0 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		1D5E1C7F25C32F2900320F5B /* arc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = arc; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5E1C8225C32F2900320F5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DC0A10725CB0B3800339EC0 /* Wheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wheel.h; sourceTree = "<group>"; };
+		1DC0A10825CB0B3900339EC0 /* Wheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wheel.m; sourceTree = "<group>"; };
+		1DC0A10B25CB0C2200339EC0 /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		1DC0A10C25CB0C2200339EC0 /* Engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		1DC0A10F25CB0CB000339EC0 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		1DC0A11025CB0CB000339EC0 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				1D5E1C8225C32F2900320F5B /* main.m */,
+				1DC0A10B25CB0C2200339EC0 /* Engine.h */,
+				1DC0A10F25CB0CB000339EC0 /* Car.h */,
+				1DC0A11025CB0CB000339EC0 /* Car.m */,
+				1DC0A10C25CB0C2200339EC0 /* Engine.m */,
+				1DC0A10725CB0B3800339EC0 /* Wheel.h */,
+				1DC0A10825CB0B3900339EC0 /* Wheel.m */,
 			);
 			path = arc;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D5E1C8325C32F2900320F5B /* main.m in Sources */,
+				1DC0A10925CB0B3900339EC0 /* Wheel.m in Sources */,
+				1DC0A11125CB0CB000339EC0 /* Car.m in Sources */,
+				1DC0A10D25CB0C2200339EC0 /* Engine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +257,7 @@
 		1D5E1C8725C32F2900320F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YRW2J72KS5;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -249,6 +268,7 @@
 		1D5E1C8825C32F2900320F5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YRW2J72KS5;
 				ENABLE_HARDENED_RUNTIME = YES;
